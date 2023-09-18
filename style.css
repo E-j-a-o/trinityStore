@@ -35,6 +35,7 @@ p{
     color: #555;
 }
 .container{
+    /* background: radial-gradient(#fff, #ffd6d6); */
     max-width: 1300px;
     margin: auto;
     padding-left: 25px;
@@ -44,8 +45,10 @@ p{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-around; 
 }
+
 .col-2{
     flex-basis: 50%;
     min-width: 300px;
@@ -73,7 +76,7 @@ p{
     background: #563434;
 }
 
-.heder{
+.header{
     background: radial-gradient(#fff, #ffd6d6);
 }
 .header .row{
